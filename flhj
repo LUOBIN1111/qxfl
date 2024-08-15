@@ -185,12 +185,3 @@ host, hmma.baidu.com, reject
 
 # > 百度贴吧 屏蔽域名dns查询
 IP-CIDR, 180.76.76.200/32, reject
-
-# > 哔哩哔哩
-;HOST, mall.bilibili.com, REJECT
-;HOST, passport.bilibili.com, REJECT
-host-keyword, api.sobot.com, reject
-host-suffix, cm.ad.bilibili.com, reject
-host-suffix, cm.adcommon.bilibili.com, reject
-host-suffix, cm.game.bilibili.com, reject
-host-suffix, cm.track.biligame.bilibili.com, reject
