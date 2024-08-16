@@ -241,3 +241,138 @@ host-suffix, shouji.sougou.com, reject
 host, u51.me, reject
 host-suffix, u51.me, reject
 
+# > 京东
+host-suffix, jzt.jd.com, reject
+host-suffix, img-x.jd.com, reject
+host-suffix, du.jd.com, reject
+host-suffix, c-nfa.jd.com, reject
+host-suffix, cm.jd.com, reject
+host-keyword, policy.jd.com, reject
+host-keyword, kepler.jd.com, reject
+host-keyword, bdsp.x.jd.com, reject
+host-keyword, keplerapi.jd.com, reject
+host-keyword, mapi.m.jd.com, reject
+# 屏蔽DNS
+host, dns.jd.com, reject
+IP-CIDR, 101.124.19.122/32, reject
+IP6-CIDR, 2402:db40:5100:1011::5/128, reject
+
+# > 建行生活
+# 内置饿了么外卖弹窗
+host, o2o-ad-log-gateway.alibaba.com, reject
+
+# > 美团
+host, flowplus.meituan.net, reject
+host-suffix, analytics.meituan.net, reject
+host-suffix, meituan.xn, reject
+host-suffix, meituan.yoga, reject
+host-suffix, meituangov.cn, reject
+host-suffix, report.meituan.com, reject
+host-suffix, wmlog.meituan.com, reject
+host-suffix, ad.e.waimai.sankuai.com, reject
+host-suffix, mads.meituan.com, reject
+host-suffix, dreport.meituan.net, reject
+host-suffix, d.meituan.net, reject
+
+# > 买单吧
+host-suffix, c-hzgt2.getui.com, reject
+host-suffix, c-hzgt2.getui.com, reject
+host-suffix, gs.getui.com, reject
+
+# > 深圳通微信小程序
+host-suffix, wxsnsdythumb.wxs.qq.com, reject
+
+# > 收钱吧 买单小程序去广告
+host, ads-shopping.shouqianba.com, reject
+
+# > 什么值得买
+host, aaid.uyunad.com, REJECT
+host, acs4baichuan.m.taobao.com, REJECT
+host, adashxgc.ut.taobao.com, REJECT
+host, analytics-api.smzdm.com, REJECT
+host, baichuan-sdk.alicdn.com, REJECT
+host, dgstatic.jd.com, REJECT
+host, msg.umengcloud.com, REJECT
+host, sec.umeng.com, REJECT
+host, ulogs.umeng.com, REJECT
+host, ynuf.aliapp.org, REJECT
+
+# > 淘宝
+host-suffix, apoll.m.taobao.com, reject
+host-suffix, h-adashx.ut.taobao.com, reject
+host-suffix, w.m.taobao.com, reject
+host, tunion-api.m.taobao.com, reject
+;host-suffix, ai.m.taobao.com, reject
+host-suffix, re.m.taobao.com, reject
+host-suffix, agoodm.m.taobao.com, reject
+host-suffix, ai.taobao.com, reject
+host-suffix, api.waptest.taobao.com, reject
+host-suffix, dsp.simba.taobao.com, reject
+host-suffix, fav.simba.taobao.com, reject
+host-suffix, m.simba.taobao.com, reject
+host-suffix, mclick.simba.taobao.com, reject
+host-suffix, re.taobao.com, reject
+host-suffix, redirect.simba.taobao.com, reject
+host-suffix, simba.m.taobao.com, reject
+host-suffix, srd.simba.taobao.com, reject
+host-suffix, temai.taobao.com, reject
+host-suffix, textlink.simba.taobao.com, reject
+host-suffix, unitacs.m.taobao.com, reject
+host-suffix, acs4baichuan.m.taobao.com, reject
+host-suffix, adashbc.ut.taobao.com, reject
+host-suffix, adash-c.ut.taobao.com, reject
+host-suffix, adashxgc.ut.taobao.com, reject
+host-suffix, adashx4yt.m.taobao.com, reject
+host-suffix, tunion-api.m.taobao.com, reject
+host-suffix, tns.simba.taobao.com, reject
+host-suffix, click.mz.simba.taobao.com, reject
+host-suffix, click.simba.taobao.com, reject
+host-suffix, click.tz.simba.taobao.com, reject
+host-suffix, stat.simba.taobao.com, reject
+host-suffix, m-adash.m.taobao.com, reject
+host-suffix, adashbc.m.taobao.com, reject
+
+# > 小红书
+host, ads-img-qc.xhscdn.com, reject
+host, ads-video-al.xhscdn.com, reject
+host, ads-video-qc.xhscdn.com, reject
+host, t-ads.xiaohongshu.com, reject
+
+# > 云闪付
+host, ads.95516.com, reject
+host, tysdk.95516.com, reject
+host, cm-10-138.getui.com, reject
+host, sdk.open.talk.getui.net, reject
+host, sdk-conf.getui.com, reject
+host, switch.cup.com.cn, reject
+
+# > 知乎
+USER-AGENT,AVOS*, reject
+host, appcloud.zhihu.com, reject
+host, appcloud2.in.zhihu.com, reject
+host, mqtt.zhihu.com, reject
+host, sugar.zhihu.com, reject
+host, crash2.zhihu.com, reject
+host, 118.89.204.198, reject
+IP-CIDR, 118.89.204.198/32, reject
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
+
+# > 中国联通
+host-suffix, m1.ad.10010.com, reject
+
+# > 中国电信
+host, ad.21cn.com, reject
+host, ad.k.21cn.com, reject
+host, admarket.21cn.com, reject
+host, adshows.21cn.com, reject
+IP-CIDR, 122.229.8.47/32, reject
+IP-CIDR, 122.229.29.89/32, reject
+
+
+
+
+
+
+
+
+
